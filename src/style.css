@@ -1,0 +1,189 @@
+@media only screen and (max-width: 600px) {
+  body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .result {
+    text-align: center;
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    color: white;
+    margin-top: 0px;
+    border-radius: 0 0 25px 25px;
+  }
+  .score {
+    background-color: hsla(241, 47%, 43%, 1);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  .summary {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  span {
+    font-weight: 500;
+    padding-left: 15px;
+    font-size: 18px;
+  }
+
+  #ctigscore {
+    float: right;
+  }
+
+  .catig1 {
+    padding: 15px;
+    background-color: hsl(0, 55%, 95%);
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+
+  .catig2 {
+    padding: 15px;
+    background-color: hsl(39, 55%, 95%);
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+
+  .catig3 {
+    padding: 15px;
+    background-color: hsl(166, 55%, 95%);
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+
+  .catig4 {
+    padding: 15px;
+    background-color: hsl(234, 55%, 95%);
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+
+  i {
+    float: left;
+  }
+
+  .button {
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+  }
+  button {
+    width: 100%;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: hsl(224, 30%, 27%);
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .main {
+    display: grid;
+    place-items: center;
+  }
+
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+
+  .result {
+    text-align: center;
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    color: white;
+    margin-top: 0px;
+    border-radius: 25px;
+    width: 50%;
+  }
+  .score {
+    background-color: hsla(241, 47%, 43%, 1);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  .summary {
+    padding-left: 20px;
+    width: 50%;
+  }
+
+  span {
+    font-weight: 500;
+    padding-left: 15px;
+    font-size: 18px;
+  }
+
+  #ctigscore {
+    float: right;
+  }
+
+  .catig1 {
+    padding: 15px;
+    background-color: hsl(0, 55%, 95%);
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+
+  .catig2 {
+    padding: 15px;
+    background-color: hsl(39, 55%, 95%);
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+
+  .catig3 {
+    padding: 15px;
+    background-color: hsl(166, 55%, 95%);
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+
+  .catig4 {
+    padding: 15px;
+    background-color: hsl(234, 55%, 95%);
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+
+  i {
+    float: left;
+  }
+
+  .button {
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+  }
+  button {
+    width: 80%;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: hsl(224, 30%, 27%);
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+  }
+}
