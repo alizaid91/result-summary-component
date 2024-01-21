@@ -1,190 +1,130 @@
-@media only screen and (max-width: 600px) {
+body {
+  font-family: "Ubuntu", sans-serif;
+  margin-bottom: 10px;
+}
+
+.result {
+  text-align: center;
+  background: linear-gradient(to right, rgb(5, 117, 230), rgb(2, 27, 121));
+  color: white;
+  margin-top: 0px;
+}
+.score {
+  background: linear-gradient(to right, rgb(5, 117, 230), rgb(2, 27, 121));
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: relative;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+.summary {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+span {
+  font-weight: 500;
+  padding-left: 15px;
+  font-size: 18px;
+}
+
+#ctigscore {
+  float: right;
+}
+
+.catig1 {
+  padding: 15px;
+  background-color: hsl(0, 55%, 95%);
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.catig2 {
+  padding: 15px;
+  background-color: hsl(39, 55%, 95%);
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.catig3 {
+  padding: 15px;
+  background-color: hsl(166, 55%, 95%);
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.catig4 {
+  padding: 15px;
+  background-color: hsl(234, 55%, 95%);
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+i {
+  float: left;
+}
+
+.button {
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: hsl(224, 30%, 27%);
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+@media only screen and (max-width: 700px) {
   body {
-    font-family: "Roboto", sans-serif;
-    margin: 0;
-    margin-bottom: 10px;
+    margin: 0px;
+    padding-bottom: 10px;
   }
 
   .result {
-    text-align: center;
-    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
-    color: white;
-    margin-top: 0px;
     border-radius: 0 0 25px 25px;
-  }
-  .score {
-    background-color: hsla(241, 47%, 43%, 1);
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin: 0 auto;
-  }
-
-  .attribution {
-    font-size: 11px;
-    text-align: center;
-  }
-
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-    text-decoration: none;
-  }
-
-  .summary {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-
-  span {
-    font-weight: 500;
-    padding-left: 15px;
-    font-size: 18px;
-  }
-
-  #ctigscore {
-    float: right;
-  }
-
-  .catig1 {
-    padding: 15px;
-    background-color: hsl(0, 55%, 95%);
-    margin-bottom: 10px;
-    border-radius: 8px;
-  }
-
-  .catig2 {
-    padding: 15px;
-    background-color: hsl(39, 55%, 95%);
-    margin-bottom: 10px;
-    border-radius: 8px;
-  }
-
-  .catig3 {
-    padding: 15px;
-    background-color: hsl(166, 55%, 95%);
-    margin-bottom: 10px;
-    border-radius: 8px;
-  }
-
-  .catig4 {
-    padding: 15px;
-    background-color: hsl(234, 55%, 95%);
-    margin-bottom: 10px;
-    border-radius: 8px;
-  }
-
-  i {
-    float: left;
-  }
-
-  .button {
-    text-align: center;
-    margin: 20px 0px 20px 0px;
-  }
-  button {
-    width: 100%;
-    padding: 15px;
-    border-radius: 50px;
-    background-color: hsl(224, 30%, 27%);
-    font-size: 20px;
-    font-weight: 600;
-    color: white;
   }
 }
 
-@media only screen and (min-width: 601px) {
-  .main {
-    display: grid;
-    place-items: center;
+@media only screen and (min-width: 701px) {
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
-
-  body {
-    font-family: "Roboto", sans-serif;
+  .main {
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 10px;
   }
 
   .result {
-    text-align: center;
-    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
-    color: white;
-    margin-top: 0px;
+    width: 330px;
     border-radius: 25px;
-    width: 50%;
-  }
-  .score {
-    background-color: hsla(241, 47%, 43%, 1);
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin: 0 auto;
-  }
-
-  .attribution {
-    font-size: 11px;
-    text-align: center;
-  }
-
-  .attribution a {
-    color: hsl(228, 45%, 44%);
   }
 
   .summary {
-    padding-left: 20px;
-    width: 50%;
+    width: 290px;
+    padding-left: 10px;
+    padding-right: 0px;
   }
 
-  span {
-    font-weight: 500;
-    padding-left: 15px;
-    font-size: 18px;
-  }
-
-  #ctigscore {
-    float: right;
-  }
-
-  .catig1 {
-    padding: 15px;
-    background-color: hsl(0, 55%, 95%);
-    margin-bottom: 10px;
-    border-radius: 8px;
-  }
-
-  .catig2 {
-    padding: 15px;
-    background-color: hsl(39, 55%, 95%);
-    margin-bottom: 10px;
-    border-radius: 8px;
-  }
-
-  .catig3 {
-    padding: 15px;
-    background-color: hsl(166, 55%, 95%);
-    margin-bottom: 10px;
-    border-radius: 8px;
-  }
-
-  .catig4 {
-    padding: 15px;
-    background-color: hsl(234, 55%, 95%);
-    margin-bottom: 10px;
-    border-radius: 8px;
-  }
-
-  i {
-    float: left;
-  }
-
-  .button {
-    text-align: center;
-    margin: 20px 0px 20px 0px;
-  }
   button {
-    width: 80%;
-    padding: 15px;
-    border-radius: 50px;
-    background-color: hsl(224, 30%, 27%);
-    font-size: 20px;
-    font-weight: 600;
-    color: white;
+    background-color: hsl(241, 61%, 54%);
   }
 }
