@@ -21,6 +21,7 @@ body {
   font-size: 11px;
   text-align: center;
   position: relative;
+  padding-top: 20px;
 }
 
 .attribution a {
@@ -101,16 +102,21 @@ button {
 }
 
 @media only screen and (min-width: 701px) {
-  .container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
   }
+
   .main {
     display: flex;
     margin: 0 auto;
-    padding-bottom: 10px;
+    padding-right: 15px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 20px;
+    border-radius: 25px;
   }
 
   .result {
