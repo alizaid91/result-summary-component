@@ -90,7 +90,7 @@ button {
   color: white;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
   body {
     margin: 0px;
     padding-bottom: 10px;
@@ -101,33 +101,33 @@ button {
   }
 }
 
-@media only screen and (min-width: 701px) {
+@media only screen and (min-width: 601px) {
   body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     height: 100vh;
   }
 
   .main {
     display: flex;
-    margin: 0 auto;
     padding-right: 15px;
     background-color: whitesmoke;
     box-shadow: 1px 1px 20px;
     border-radius: 25px;
+    width: 80%;
+    min-width: 600px;
   }
 
   .result {
-    width: 330px;
+    width: 50%;
     border-radius: 25px;
   }
 
   .summary {
-    width: 290px;
-    padding-left: 25px;
-    padding-right: 0px;
+    width: 50%;
+    padding-right: 10px;
+    padding-left: 20px;
   }
 
   button {
